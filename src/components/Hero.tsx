@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Download, Github, Linkedin, Mail } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Download, Github, Linkedin, Mail, Award, Cloud, Code2, Shield } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -12,9 +13,45 @@ export const Hero = () => {
           <p className="text-xl md:text-2xl text-muted-foreground mb-2">
             Senior Engineering Manager
           </p>
-          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience leading global teams in building high-reliability, cloud-native (AWS/Multi-Cloud) SaaS platforms. Demonstrated success in scaling engineering organizations, driving AI/ML initiatives (Generative AI, MLOps), and executing multi-million-dollar programs. Deep expertise in event-driven distributed systems, API-first microservices, CI/CD pipelines, cybersecurity, and regulatory compliance, consistently advancing engineering velocity and operational excellence. PMI-ACP certified.
-          </p>
+          <div className="max-w-3xl mx-auto space-y-6">
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+              Leading global teams in building high-reliability, cloud-native SaaS platforms with proven success in scaling engineering organizations and driving AI/ML initiatives.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+              <div className="flex gap-3 items-start p-4 rounded-lg bg-secondary/30 backdrop-blur-sm border border-border/50">
+                <Cloud className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-sm mb-1">Cloud & Infrastructure</h3>
+                  <p className="text-xs text-muted-foreground">AWS/Multi-Cloud SaaS platforms, event-driven distributed systems</p>
+                </div>
+              </div>
+              
+              <div className="flex gap-3 items-start p-4 rounded-lg bg-secondary/30 backdrop-blur-sm border border-border/50">
+                <Code2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-sm mb-1">AI/ML & Innovation</h3>
+                  <p className="text-xs text-muted-foreground">Generative AI, MLOps, API-first microservices, CI/CD pipelines</p>
+                </div>
+              </div>
+              
+              <div className="flex gap-3 items-start p-4 rounded-lg bg-secondary/30 backdrop-blur-sm border border-border/50">
+                <Shield className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-sm mb-1">Security & Compliance</h3>
+                  <p className="text-xs text-muted-foreground">Cybersecurity, regulatory compliance, operational excellence</p>
+                </div>
+              </div>
+              
+              <div className="flex gap-3 items-start p-4 rounded-lg bg-secondary/30 backdrop-blur-sm border border-border/50">
+                <Award className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-sm mb-1">Leadership & Delivery</h3>
+                  <p className="text-xs text-muted-foreground">Multi-million dollar programs, team scaling, PMI-ACP certified</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="flex flex-wrap gap-4 justify-center items-center mt-8">
