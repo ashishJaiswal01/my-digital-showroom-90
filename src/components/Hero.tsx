@@ -7,10 +7,10 @@ export const Hero = () => {
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-6">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-            Your Name
+            Ashish Jaiswal
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-            Full Stack Developer & Designer
+            Senior Engineering Manager
           </p>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
             Building beautiful, functional web applications with modern technologies.
