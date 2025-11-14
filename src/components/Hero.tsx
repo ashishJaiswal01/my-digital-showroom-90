@@ -13,8 +13,7 @@ export const Hero = () => {
             Senior Engineering Manager
           </p>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Building beautiful, functional web applications with modern technologies.
-            Passionate about creating seamless user experiences.
+            Experience leading global teams in building high-reliability, cloud-native (AWS/Multi-Cloud) SaaS platforms. Demonstrated success in scaling engineering organizations, driving AI/ML initiatives (Generative AI, MLOps), and executing multi-million-dollar programs. Deep expertise in event-driven distributed systems, API-first microservices, CI/CD pipelines, cybersecurity, and regulatory compliance, consistently advancing engineering velocity and operational excellence. PMI-ACP certified.
           </p>
         </div>
 
