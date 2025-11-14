@@ -19,9 +19,11 @@ export const Hero = () => {
         </div>
 
         <div className="flex flex-wrap gap-4 justify-center items-center mt-8">
-          <Button size="lg" className="gap-2 shadow-lg hover:shadow-xl transition-shadow">
-            <Download className="h-5 w-5" />
-            Download Resume
+          <Button size="lg" className="gap-2 shadow-lg hover:shadow-xl transition-shadow" asChild>
+            <a href="https://ashishjaiswal01.github.io/profile/" target="_blank" rel="noopener noreferrer">
+              <Download className="h-5 w-5" />
+              View Resume
+            </a>
           </Button>
           
           <div className="flex gap-3">
