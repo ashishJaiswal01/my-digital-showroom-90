@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Developer Profile</title>
+
+    <style>
+        :root {
+            --background-color: #121212;
+            --surface-color: #1E1E1E;
+            --text-color: #E0E0E0;
+            --primary-color: #4CAF50;
+            --shadow-color: rgba(0, 0, 0, 0.4);
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .profile-header {
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--surface-color);
+        }
+
+        .profile-header h1 {
+            font-size: clamp(1.8em, 4vw, 2.8em);
+            margin-bottom: 5px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .profile-header p {
+            font-size: clamp(1em, 1.5vw, 1.1em);
+            color: #A0A0A0;
+            line-height: 1.5;
+        }
+
+        .resume-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+            font-size: 1em;
+            letter-spacing: 0.5px;
+        }
+
+        .resume-link:hover {
+            background-color: #5cb85c;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.5);
+        }
+
+        .app-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .app-tile {
+            background-color: var(--surface-color);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 150px;
+        }
+
+        .app-tile:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(76, 175, 80, 0.4);
+            background-color: #252525;
+        }
+
+        .app-tile h2 {
+            font-size: 1.4em;
+            margin-top: 0;
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+
+        .app-tile p {
+            font-size: 0.95em;
+            color: #B0B0B0;
+            margin-bottom: 15px;
+        }
+
+        .app-tile .link-text {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+        }
+
+        .app-tile .link-text::after {
+            content: '→';
+            margin-left: 8px;
+            font-size: 1.2em;
+            transition: margin-left 0.3s;
+        }
+
+        .app-tile:hover .link-text::after {
+            margin-left: 12px;
+        }
+    </style>
+  <script type="module" crossorigin src="/my-digital-showroom-90/assets/index-Dq0JKvKC.js"></script>
+  <link rel="stylesheet" crossorigin href="/my-digital-showroom-90/assets/index-_nYrJoAM.css">
+</head>
+
+<body>
+
+    <!-- Your Custom Portfolio UI -->
+    <header class="profile-header">
+        <h1>My Profile Summary</h1>
+        <p>
+            Senior Engineering Leader with around 20 years of experience leading global teams in building high-
+            reliability, cloud-native (AWS/Multi-Cloud) SaaS platforms. Demonstrated success in scaling
+            engineering organizations, driving AI/ML initiatives (Generative AI, MLOps), and executing multi-million-
+            dollar programs. Possesses deep expertise in event-driven distributed systems, API-first microservices,
+            CI/CD pipelines, cybersecurity, and regulatory compliance — consistently advancing engineering
+            velocity and operational excellence. PMI-ACP certified.        </p>
+
+        <a href="https://ashishjaiswal01.github.io/profile/" class="resume-link" target="_blank">
+            View My Resume
+        </a>
+    </header>
+
+    <main class="app-grid">
+
+        <a class="app-tile" href="https://huggingface.co/spaces/ashish-portfolio/career_conversation" target="_blank">
+            <div>
+                <h2>AI Career Chat Resume 🤖</h2>
+                <p>
+                    A dynamic, interactive AI version of my resume.  
+                    Users, interviewers, and recruiters can ask questions about my career  
+                    and instantly get detailed answers — hosted on Hugging Face Space.
+                </p>
+            </div>
+            <span class="link-text">Launch</span>
+        </a>
+
+        <a class="app-tile" href="#">
+            <div>
+                <h2>Portfolio Tracker 📈</h2>
+                <p>Real-time market analytics.</p>
+            </div>
+            <span class="link-text">Launch</span>
+        </a>
+
+        <a class="app-tile" href="#">
+            <div>
+                <h2>Task Manager ✅</h2>
+                <p>ML-based productivity tool.</p>
+            </div>
+            <span class="link-text">Launch</span>
+        </a>
+
+    </main>
+
+    <!-- React App Mount Point -->
+    <div id="root"></div>
+
+</body>
+
+</html>
