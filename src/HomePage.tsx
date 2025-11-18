@@ -7,7 +7,10 @@ export const HomePage = () => {
 
       {/* Profile Header */}
       <header className="profile-header">
-        <h1>My Profile Summary</h1>
+        <h1>My Portfolio</h1>
+
+        <h2>Summary</h2>
+
 
         <p>
             Senior Engineering Leader with around 20 years of experience leading global teams in building high-
