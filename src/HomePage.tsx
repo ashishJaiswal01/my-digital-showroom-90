@@ -11,6 +11,10 @@ export const HomePage = () => {
 
         <h2>Summary</h2>
 
+        <h1>My Portfolio</h1>
+
+        <h2>Summary</h2>
+
 
         <p>
             Senior Engineering Leader with around 20 years of experience leading global teams in building high-
@@ -36,6 +40,7 @@ export const HomePage = () => {
         {/* Tile 1: AI Career Chat Resume */}
         <a
           className="app-tile"
+          href="https://talktomyresume.onrender.com"
           href="https://talktomyresume.onrender.com/"
           target="_blank"
         >
@@ -43,6 +48,7 @@ export const HomePage = () => {
             <h2>AI Career Chat Resume 🤖</h2>
             <p>
               A dynamic, interactive AI version of my resume. Ask questions about my
+              career and get instant answers.
               career and get instant answers.
             </p>
           </div>
