@@ -33,14 +33,14 @@ export const HomePage = () => {
         {/* Tile 1: AI Career Chat Resume */}
         <a
           className="app-tile"
-          href="https://huggingface.co/spaces/ashish-portfolio/career_conversation"
+          href="https://talktomyresume.onrender.com/"
           target="_blank"
         >
           <div>
             <h2>AI Career Chat Resume 🤖</h2>
             <p>
               A dynamic, interactive AI version of my resume. Ask questions about my
-              career and get instant answers — hosted on Hugging Face Space.
+              career and get instant answers.
             </p>
           </div>
           <span className="link-text">Launch</span>
