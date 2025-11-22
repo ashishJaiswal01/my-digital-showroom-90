@@ -52,9 +52,7 @@ const Hero = () => (
         <br /> One Line at a Time.
       </h1>
       <p className="text-xl md:text-2xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-        Senior Engineering Leader with around 20 years of experience leading global teams in building high- reliability, 
-        cloud-native (AWS/Multi-Cloud) SaaS platforms. Possesses deep expertise in AL/ML, event-driven distributed systems, API-first microservices, CI/CD pipelines, cybersecurity, and 
-        regulatory compliance. PMI-ACP certified.
+        Senior Engineering Leader with ~20 years of experience leading global teams to build high-reliability, cloud-native SaaS platforms (AWS/Multi-Cloud). Deep expertise in AI/ML, event-driven distributed systems, API-first microservices, CI/CD pipelines, cybersecurity, and regulatory compliance. PMI-ACP certified and passionate about driving innovation and operational excellence.
       </p>
       
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
