@@ -135,7 +135,7 @@ export const HomePage = () => {
     {
       title: "Crypto Tracker",
       description: "Real-time cryptocurrency portfolio tracker featuring live price updates, alerts, and historical performance charts.",
-      tags: ["TypeScript", "Node.js", "WebSocket"],
+      tags: ["TypeScript", "Node.js"],
       icon: Terminal,
       links: { github: "#", demo: "#" }
     }
