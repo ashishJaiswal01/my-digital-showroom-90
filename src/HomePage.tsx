@@ -116,7 +116,7 @@ export const HomePage = () => {
       description: "An intelligent AI assistant built with Python that helps automate daily workflows, manage schedules, and provides code assistance.",
       tags: ["Python", "Flask", "OpenAI", "React"],
       icon: User,
-      links: { github: "#", demo: "#" }
+      links: { github: "#", demo: "https://personal-co-worker.onrender.com/" }
     },
     {
       title: "Talk To My Resume",
