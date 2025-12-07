@@ -126,18 +126,17 @@ export const HomePage = () => {
       links: { github: "#", demo: "https://talktomyresume.onrender.com/" }
     },
     {
-      title: "Coming Soon....",
-      description: "A comprehensive SaaS dashboard for monitoring server metrics in real-time with beautiful data visualizations.",
-      tags: ["React", "Langraph", "Python"],
+      title: "Stories",
+      description: "",
       icon: Globe,
-      links: { github: "#", demo: "#" }
+      links: { github: "#", demo: "https://medium.com/me/stories?tab=posts-published" }
     },
     {
       title: "Common Soon...",
       description: "Real-time cryptocurrency portfolio tracker featuring live price updates, alerts, and historical performance charts.",
       tags: ["TypeScript", "Node.js"],
       icon: Terminal,
-      links: { github: "#", demo: "#" }
+      links: { github: "#", demo: "" }
     }
   ];
 
